@@ -1,0 +1,11 @@
+name: pulumi-higara
+description: Pulumi configuration for Higara
+runtime:
+  name: nodejs
+  options:
+    typescript: false
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: github-javascript
