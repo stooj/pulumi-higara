@@ -2,8 +2,8 @@
 const pulumi = require("@pulumi/pulumi");
 const github = require("@pulumi/github")
 
-const repo = new github.Repository("demo-repo", {
-    description: "Demo Repository for GitHub",
+const pulumiRepo = new github.Repository("pulumi-higara-repo", {
+    description: "Repo for pulumi higara configuration",
 });
 
 exports.repo = repo.name
