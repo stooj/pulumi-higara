@@ -1,2 +1,4 @@
 config:
   github:owner: stooj
+  github:token:
+    secure: AAABANbMX0OkB3nM4MfcstGBoq2D42nbG++NzlxYqFMY6aPcig3lVOeEpmCr6XwknK5cA738nXfMKOnj3Xph0pjl6AHj8NDlO9TZ2IqGEN5CyvjHVogo6s7hOIg+g5W7Mmw5Dege3LYHCPIDAt74dnpctpfYvYGWUD/iMRo=
