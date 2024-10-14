@@ -9,4 +9,4 @@ const pulumiRepo = new github.Repository("pulumi-higara-repo", {
     retainOnDelete: true
 });
 
-exports.repo = pulumiRepo.name
+exports.pulumiRepo = pulumiRepo.name
