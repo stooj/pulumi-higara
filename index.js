@@ -16,5 +16,14 @@ const nixRepo = new github.Repository("nix-config", {
    retainOnDelete: true
 });
 
+const blogRepo = new github.Repository("stooj-dot-org", {
+    description: "Stoo's website",
+    name: "stooj-dot-org",
+}, {
+   retainOnDelete: true
+});
+
+
 exports.pulumiRepo = pulumiRepo.name
 exports.nixRepo = nixRepo.name
+exports.blogRepo = blogRepo.name
