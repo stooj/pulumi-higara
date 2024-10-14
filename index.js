@@ -9,4 +9,12 @@ const pulumiRepo = new github.Repository("pulumi-higara-repo", {
     retainOnDelete: true
 });
 
+const nixRepo = new github.Repository("nix-config", {
+    description: "StooJ's NixOS configuration",
+    name: "nix-config",
+}, {
+   retainOnDelete: true
+});
+
 exports.pulumiRepo = pulumiRepo.name
+exports.nixRepo = nixRepo.name
