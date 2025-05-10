@@ -25,6 +25,9 @@
               ]
             ))
           ];
+          shellHook = ''
+            export PULUMI_HOME=$(pwd)/.pulumi
+          '';
         };
       }
     );
