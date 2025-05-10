@@ -16,7 +16,16 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        devShells.default = pkgs.mkShell { };
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
+            # Pulumi with the required provider
+            (pulumi.withPackages (
+              ps: with ps; [
+                pulumi-nodejs
+              ]
+            ))
+          ];
+        };
       }
     );
 }
