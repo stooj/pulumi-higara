@@ -24,6 +24,9 @@
                 pulumi-nodejs
               ]
             ))
+            # Programming language and tools
+            nodejs
+            yarn
           ];
           shellHook = ''
             export PULUMI_HOME=$(pwd)/.pulumi
