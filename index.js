@@ -23,6 +23,12 @@ const blogRepo = new github.Repository("stooj-dot-org", {
    retainOnDelete: true
 });
 
+const nixvimRepo = new github.Repository("nixvim-config", {
+    description: "Stoo's nixvim configuration",
+    name: "nixvim-config",
+}, {
+   retainOnDelete: true
+});
 
 exports.pulumiRepo = pulumiRepo.name
 exports.nixRepo = nixRepo.name
