@@ -33,3 +33,4 @@ const nixvimRepo = new github.Repository("nixvim-config", {
 exports.pulumiRepo = pulumiRepo.name
 exports.nixRepo = nixRepo.name
 exports.blogRepo = blogRepo.name
+exports.nixvimRepo = nixvimRepo.name
