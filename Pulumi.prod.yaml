@@ -1,1 +1,1 @@
-{}
+{environment: [pulumi-higara/github-auth]}
